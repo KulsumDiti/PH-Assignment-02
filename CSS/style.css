@@ -11,9 +11,13 @@
     margin: 30px auto 120px;
    
 }
+ .font-Noto{
+    font-family: "Noto Serif", serif;
+ }
+ 
 p{
     font-family: "Inter", sans-serif;
-    /* font-size: 22px; */
+    
 }
 .menu ul li a{
     font-family: "Inter", sans-serif;
