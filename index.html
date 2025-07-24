@@ -5,52 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH-Assignment-02(responsive Flower Market)</title>
     <link rel="icon" type="image/x-icon" href="./assets/deal-bloom.png" />
-                 <!-- Google Fonts -->
+              <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"/>
-                <!-- font-awesome -->
+               <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/09ed3ee267.js" crossorigin="anonymous"></script>
 
-     <link rel="stylesheet" href="./CSS/style.css">
-                  
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-[#F5F8FF]">
-                     <!-- Navbar section -->
+                   <!-- Navbar section -->
     <header>
-        <nav class="container flex justify-between items-center">
-            <div class="logo">
-                <img src="./assets/logo.png" alt="">
-            </div>
-            <div class="menu flex gap-10">
-                <ul class="hidden md:flex gap-10">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About us</a></li>
-                </ul>
-                <p class="text-[16px] "><i class="fa-solid fa-cart-shopping text-[16px]"></i> Cart($56)</p>
-            </div>
-        </nav>
+      <nav class="container flex justify-between items-center">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="" />
+        </div>
+        <div class="menu flex gap-10">
+          <ul class="hidden md:flex gap-10">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+          <p class="text-[16px] cursor-pointer">
+            <i class="fa-solid fa-cart-shopping text-[16px] cursor-pointer"></i> Cart($56)
+          </p>
+        </div>
+      </nav>
     </header>
     <main>
-                <!-- Banner section -->
-     <section class="container">
-        <div class="banner flex flex-col-reverse md:flex-row justify-between items-end">
-            <div class="banner-content flex-1/2">
-                <h1 class="text-4xl leading-[33px] md:text-6xl font-Noto font-bold md:leading-[80px]">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
-                <p class="text-[20px] text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                    <!-- Banner section -->
+     <section>
+        <div class="banner container flex flex-col-reverse md:flex-row justify-between items-end">
+            <div class="banner-content m-6 md:m-0 flex-1/2">
+                <h1 class="text-4xl leading-[33px] md:text-6xl md:leading-[80px] font-Noto font-bold">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p class="text-[18px] text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
             </div>
-            <div class="">
+            <div>
                 <img src="./assets/hero-flower.png" alt="">
             </div>
         </div>
+     </section>
+                        <!-- Our Plants section -->
+     <section class="container">
+        <div class="our-plants-content mb-8">
+            <h2 class="text-5xl font-bold font-Noto text-center"><span class="text-[#E95A08]">Our</span> Plants</h2>
+            <p class="text-[#00000080] text-[18px] text-center m-3 md:mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
+        <div class="card grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-8">
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="">
+                <p class="font-medium text-[22px] text-center mt-4">Lily Blossom</p>
+                <p class="font-bold text-[22px] text-center">20 USD</p>
+                <button class="bg-[#E95A08] text-white w-[270px] h-12 text-[16px] font-medium text-center mt-5 hover:bg-[#B33791] cursor-pointer">ADD TO CART</button>
+            </div>
 
+        </div>
      </section>
     </main>
     <footer></footer>
-    
   </body>
 </html>

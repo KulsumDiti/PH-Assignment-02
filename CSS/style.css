@@ -2,14 +2,12 @@
 @import "tailwindcss";
 
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
 }
 .container{
     max-width: 1140px;
     margin: 30px auto 120px;
-   
 }
  .font-Noto{
     font-family: "Noto Serif", serif;
